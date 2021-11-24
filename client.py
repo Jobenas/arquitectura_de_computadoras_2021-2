@@ -4,7 +4,11 @@ import time
 SOCK_BUFFER = 1024
 
 def exp_local(n):
-    ...
+    res = 1
+    for i in range(n):
+        res *= n
+    
+    return res
 
 
 def exp_remoto(n):
